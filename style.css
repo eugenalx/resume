@@ -53,21 +53,27 @@ nav  li{
      color: #ebe4e4;
  }
  .container{
+     
     max-width: 1600px;
     margin: auto;
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
     grid-gap: 20px;
-    border: #2a0f7e;
     color:#4b1e1e;
     }
 .container div{
+    border-radius: 2%;
+    box-shadow: 10px  10px 10px #4b1e1e;
+    background-color: azure;
     text-align: center;
+    border: 5px double rgb(213, 243, 218) ;
 }
 
 .container p{
     text-align: center;
 }
  .container img{
-    width:80%;
+     align-self: center;
+    width:100%;
+    overflow: hidden;
  }
