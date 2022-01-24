@@ -55,10 +55,12 @@ nav  li{
  .container{
      
     max-width: 1600px;
+    padding-left: 5%;
+    padding-right: 5%;
     margin: auto;
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 5%;
     color:#4b1e1e;
     }
 .container div{
