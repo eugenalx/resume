@@ -11,6 +11,7 @@ body{
 header{
     width: 100%;
     position: sticky;
+    margin-bottom: 5%;
 }
 
 header h1, header h3{
@@ -33,6 +34,7 @@ nav{
     background-color: black;
     letter-spacing: 3px;
     font-size: 14px;
+    margin-bottom: 5%;
     
 
 }
