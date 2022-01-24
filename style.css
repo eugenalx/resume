@@ -53,9 +53,21 @@ nav  li{
      color: #ebe4e4;
  }
  .container{
-    
+    max-width: 1600px;
+    margin: auto;
     display: grid;
-    grid-template-columns:  50% 50% 30%;
-    border: #000000;
-    color:#000000;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-gap: 20px;
+    border: #2a0f7e;
+    color:#4b1e1e;
+    }
+.container div{
+    text-align: center;
+}
+
+.container p{
+    text-align: center;
+}
+ .container img{
+    width:80%;
  }
