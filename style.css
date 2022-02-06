@@ -149,6 +149,17 @@ nav > ul {
      body{
          font-size: 80%;
      }
+
+     .container{
+     
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: auto;
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        grid-gap: 2%;
+        color:#4b1e1e;
+        }
  }
 
 
