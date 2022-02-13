@@ -122,18 +122,26 @@ nav > ul {
     color:#4b1e1e;
     }
 .container div{
+
+    position:relative;
+    height:100%;
     border-radius: 2%;
     box-shadow: 10px  10px 50px #000f80;
     background-color: azure;
     text-align: center;
     border: 5px double rgb(213, 243, 218) ;
+    display: grid;
+    grid-template-rows:  80% 20%;
+    
 }
 
 .container p{
-    text-align: center;
+    text-align: end;
+   padding-bottom: 3%;
+   padding-right: 3%;
 }
  .container img{
-     align-self: center;
+    align-self: flex-start;
     width:100%;
  }
  

@@ -6,23 +6,23 @@ const Helloo = {
 
   mystudies: {
     nume: "my Studies",
-    image: "images/experience.jpg"
+    image: "images/studies.jpg"
   },
   myhobbies: {
     nume: "my Hobbies",
-    image: "images/experience.jpg"
+    image: "images/hobbies.jpg"
   },
   myskills: {
     nume: "my Skills",
-    image: "images/experience.jpg"
+    image: "images/skills.jfif"
   },
   myprojects: {
     nume: "my Projects",
-    image: "images/experience.jpg"
+    image: "images/projects.png"
   },
   myothers: {
     nume: "my Others",
-    image: "images/experience.jpg"
+    image: "images/abilities.jfif"
   },
 
   };
@@ -41,7 +41,7 @@ function Listare(lista) {
     let imageMain = document.createElement("img");
 
     divMain.className="pointer";
-    divMain.onclick="openNav()";
+    divMain.onclick=function() {openNav()};
     paragrafMain.innerHTML = val.nume;
     imageMain.src = val.image;
 
