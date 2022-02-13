@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
+<body  onload ="Listare(Helloo)">
+    <header >
         <nav>
             <div class="ham-container" onclick="hamburgerMenu(this)">
                 <div class="bar1"></div>
@@ -23,7 +23,8 @@
             </ul>
         </nav>
         <h1>Alexandru Eugen Strambeanu</h1>
-        <h3>Curriculum Vitae</h3>
+        <h4>Full Stack Developer |  +40721214803</h4>
+        
     </header>
     <main>
 <!-- fullscreen slider -->
@@ -41,8 +42,11 @@
 
 <!-- end fullsceen slider -->
 
-        <div class="container">
-            <div class = "pointer" id="myexperience" onclick="openNav()">
+        <div class="container" id="list">
+
+            
+
+            <!-- <div class = "pointer" id="myexperience" onclick="openNav()">
                 <img src="images/experience.jpg">
                 <p>my experience</p></div>
             <div class = "pointer" id="mystudies" onclick="openNav()">
@@ -59,10 +63,11 @@
                 <p>my others</p></div>
             <div class = "pointer" onclick="openNav()">
                 <img src="images/experience.jpg">
-                   <p>my projects</p></div>
-                
-
+                   <p>my projects</p>
+            </div> -->
         </div>
+        
+        
     </main>
     <footer></footer>
     <script src="app.js"></script>

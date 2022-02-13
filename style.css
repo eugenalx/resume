@@ -5,16 +5,17 @@ body{
    font-size: 20px;
    font-weight: 300;
    margin:0;
+   /* width: 100%; */
    
 
 }
 header{
-    width: 100%;
+    /* width: 100%; */
     position: -webkit-sticky;
     margin-bottom: 3%;
 }
 
-header h1, h3{
+header h1, h4{
     text-align: center;
     font-variant: small-caps;
     letter-spacing: 2.5px;
@@ -23,13 +24,12 @@ header h1, h3{
 }
 header h1{
     
-    padding-top: 3%;
+    margin-top: 50px;
 }
 
-header h3{
+header h4{
     color:gray;
-    font-variant: small-caps;
-    letter-spacing: 3px;
+    font-weight:300;
 }
 
 nav{
@@ -110,11 +110,12 @@ nav > ul {
     border-left-style: groove;
  }
  .container{
-     
+    position: relative;
     max-width: 1600px;
     padding-left: 5%;
     padding-right: 5%;
     margin: auto;
+    margin-top: 5%;
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
     grid-gap: 5%;
@@ -171,8 +172,7 @@ nav > ul {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+    background-color: #ebe4e4 ;
     overflow-x: hidden;
     transition: 0.5s;
   }
@@ -189,13 +189,14 @@ nav > ul {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
+    color: #311e50;
     display: block;
     transition: 0.3s;
   }
   
   .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #000000;
+    font-weight: 800;
   }
   
   .overlay .closebtn {
